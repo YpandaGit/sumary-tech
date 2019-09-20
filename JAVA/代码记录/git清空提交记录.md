@@ -1,6 +1,6 @@
-尝试 运行 git checkout --orphan latest_branch
-添加所有文件git add -A
-提交更改git commit -am "commit message"
-删除分支git branch -D master
-将当前分支重命名git branch -m master
-最后，强制更新存储库。git push -f origin master
+* 尝试 运行 `git checkout --orphan latest_branch`
+* 添加所有文件`git add -A`
+* 提交更改`git commit -am "commit message"`
+* 删除分支`git branch -D master`
+* 将当前分支重命名`git branch -m master`
+* 最后，强制更新存储库。`git push -f origin master`
