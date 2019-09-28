@@ -272,5 +272,5 @@ public class StartRunner implements CommandLineRunner {
 }
 ```
 启动后就会看到日志如下：
-
+![title](https://raw.githubusercontent.com/YpandaGit/pics/master/gemii/2019/09/28/1569653698371-1569653698411.png)
 
