@@ -4,3 +4,4 @@
 * 删除分支`git branch -D master`
 * 将当前分支重命名`git branch -m master`
 * 最后，强制更新存储库。`git push -f origin master`
+
