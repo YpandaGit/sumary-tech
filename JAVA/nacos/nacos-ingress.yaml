@@ -1,0 +1,19 @@
+---
+apiVersion: extensions/v1beta1
+kind: Ingress
+metadata:
+  name: nacos-ingress
+  annotations:
+    nginx.ingress.kubernetes.io/rewrite-target: /
+    nginx.ingress.kubernetes.io/ssl-redirect: "false"
+    nginx.ingress.kubernetes.io/force-ssl-redirect: "false"
+  namespace: liz-test
+spec:
+  rules:
+  - host: nacos.test.gemii.cc
+    http:
+      paths:
+      - path: /
+        backend:
+          serviceName: nacos-headless
+          servicePort: 8848
